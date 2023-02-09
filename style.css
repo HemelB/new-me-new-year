@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    text-align: justify;
+}
+
+.banner{
+  background-image:url(images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 500px;
+}
+.bannerText{
+    width: 40%;
+    padding: 120px 10px 10px 70px;
+}
+.bannerText h1{
+    font-size: 40px;
+}
+
+.button{
+    background-color: hsl(16, 83%, 48%);
+    border: none;
+    padding: 10px 9px 10px 9px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 200;
+}
