@@ -50,3 +50,51 @@ body{
     width: 15px;
     height: 10px;
 }
+
+/* section 3 */
+
+.plan{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 200px;
+    margin-right: 200px;   
+}
+.plans{
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+}
+.plans img{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+/* section 4 */
+
+.quote{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 180px;
+    background-image:linear-gradient(to left, rgba(92, 75, 65, 0.52), rgba(26, 188, 228, 0.531)),
+    url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.callNow{
+    margin-left: 30px;
+}
+
+.button2{
+    background-color: hsl(15, 20%, 92%);
+    border: none;
+    padding: 12px 10px 12px 10px;
+    border-radius: 4px;
+    color:rgb(208, 66, 14);
+    font-size:14px;
+    font-weight: 700;
+}
